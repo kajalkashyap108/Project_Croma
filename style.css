@@ -1,0 +1,18 @@
+.body{
+   margin:0;
+   padding:0;
+}
+.navbar{
+ height: 10vh;
+ width: 100vw;
+ background-color: black;
+ margin:0px;
+ display: flex;
+ flex-direction: row;
+ 
+
+}
+.logo{
+    color: white;
+    font-family: switzer
+}
