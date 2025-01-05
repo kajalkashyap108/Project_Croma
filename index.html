@@ -3,18 +3,372 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Croma</title>
-    <link rel="stylesheet" href="style.css">
-   
+    <title>Navbar with Carousel</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="navbar">
-     <h1 class="logo">
-        Croma
-     </h1>
-     <p
+    <div class="navw">
+    <nav class="navbar">
+        <div class="navbar-left">
+            <h1 class="logo">croma</h1>
+            <button class="burger-button">
+                <div class="burger-icon"></div>
+            </button>
+            <button class="menu-button">Menu</button>
+        </div>
+        <div class="navbar-center">
+            <input type="text" class="search-bar" placeholder="What are you looking for ?">
+            <button class="search-button">
+                <img src="Assets/search.png" alt="Search Icon">
+            </button>
+        </div>
+        <div class="navbar-right">
+            <span class="location">Mumbai, 400049</span>
+            <button class="profile-icon">
+                <img src="Assets/profile-user.png" alt="Profile Icon">
+            </button>
+            <button class="cart-icon">
+                <img src="Assets/shopping-cart.png" alt="Cart Icon">
+                <span class="cart-count">0</span>
+            </button>
+        </div>
+    </nav>
+</div>
+
+    <!-- Picture Carousel -->
+    <div class="carousel">
+        <div class="carousel-item active">
+            <img src="Assets/CR1.png" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+            <img src="Assets/CR2.png" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+            <img src="Assets/CR3.png" alt="Slide 3">
+        </div>
+        <button class="carousel-control prev">&lt;</button>
+        <button class="carousel-control next">&gt;</button>
     </div>
-    <script src="script.js"></script>  
+
+    <!-- New small image carousel -->
+    <div class="small-carousel">
+        <div class="small-carousel-track">
+            <div class="small-carousel-item">
+                <img src="Assets/Tablets_yzod4f.webp" alt="Small Slide 1">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Accessories_kefony.webp" alt="Small Slide 2">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Air_Conditioner_a4hg1z.webp" alt="Small Slide 3">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Cameras_a6n2jy.webp" alt="Small Slide 4">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/D_Geyser_i5frr1.webp" alt="Small Slide 5">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Desktop_wbgsf2.webp" alt="Small Slide 6">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Grooming_vvxudd.webp" alt="Small Slide 6">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Head_set_xjj934.webp" alt="Small Slide 6">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Home_theatres_kpwvft.webp" alt="Small Slide 6">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Kitchen_Appliances_yhzevo.webp" alt="Small Slide 6">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Laptops_pzewpv.webp" alt="Small Slide 6">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Wearables_iunu7h.webp" alt="Small Slide 6">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Mobile_sdtrdf.webp" alt="Small Slide 6">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Ref_biysg7.webp" alt="Small Slide 6">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Speaker_g2mbgn.webp" alt="Small Slide 6">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Washing_machines_izyrnd.webp" alt="Small Slide 6">
+            </div>
+            <div class="small-carousel-item">
+                <img src="Assets/Water_Purifiers_Desktop_phji31.webp" alt="Small Slide 6">
+            </div>
+        </div>
+        <button class="small-carousel-control prev">&lt;</button>
+        <button class="small-carousel-control next">&gt;</button>
+      
+    </div>
+
+    <div class="container">
+        <!-- Bank Offers -->
+        <div class="offers">
+            <div class="offer-card">
+                <img src="Assets/neu_offers_desk_tkq4lf.webp" alt="HDFC Bank Offer">
+                
+            </div>
+            <div class="offer-card">
+                <img src="Assets/HP_2Split_MFYMP_Brands_HDFC_ICIC_30May2024_kzbaou.webp" alt="Bank Offers">
+                
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="offer-card">
+            <img src="Assets/LP_SingleSplit_Bank_Fed-hdfc-hsbc_7oct2024_h51k5x.webp" alt="Bank Offers">
+            
+        </div>
+
+        <!-- New Favourites -->
+        <div class="new-favourites">
+            <h2>Our New Favourites</h2>
+            <div class="favourites">
+                <div class="favourite-item">
+                    <img src="Assets/HP_2Split_SOH_PartySpeakers_20Dec2024_yeoqlc (1).webp" alt="Top Selling Party Speakers">
+
+                </div>
+                <div class="favourite-item">
+                    <img src="Assets/HP_2Split_SOH_Wedding_4Jan2025_rezybu (1).webp" alt="Wedding Gifts">
+                </div>
+                
+            </div>
+            <div class="favourites">
+                <div class="favourite-item">
+                    <img src="Assets/HP_2Split_SOH_JBL_LiveBeam3_20Dec2024_xjmcer.webp" alt="Top Selling Party Speakers">
+ 
+                </div>
+                <div class="favourite-item">
+                    <img src="Assets/HP_2Split_SOH_JBL_SB_20Dec2024_vko52y.webp" alt="Wedding Gifts">
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="new-favourites">
+            <h2>Our New Favourites</h2>
+            <div class="favourites">
+                <div class="hot-item">
+                    <img src="Assets/hot1.webp" alt="Top Selling Party Speakers">
+
+                </div>
+                <div class="hot-item">
+                    <img src="Assets/hot2.webp" alt="Wedding Gifts">
+                </div>
+                <div class="hot-item">
+                    <img src="Assets/hot3.webp" alt="Wedding Gifts">
+                </div>
+                <div class="hot-item">
+                    <img src="Assets/hot4.webp" alt="Wedding Gifts">
+                </div>
+
+                
+                
+            </div>
+
+        </div>
+        <div class="new-favourites">
+            <h2>Our New Favourites</h2>
+            <div class="favourites">
+                <div class="hot-item">
+                    <img src="Assets/CA.webp" alt="Top Selling Party Speakers">
+
+                </div>
+                <div class="hot-item">
+                    <img src="Assets/CA2.webp" alt="Wedding Gifts">
+                </div>
+              
+
+                
+                
+            </div>
+
+        </div>
+
+        <div class="new-favourites">
+            <h2>Our New Favourites</h2>
+            <div class="favourites">
+                <div class="hot-item">
+                    <img src="Assets/dd1.webp" alt="Top Selling Party Speakers">
+
+                </div>
+                <div class="hot-item">
+                    <img src="Assets/dd2.webp" alt="Wedding Gifts">
+                </div>
+                <div class="hot-item">
+                    <img src="Assets/dd3.webp" alt="Wedding Gifts">
+                </div>
+                <div class="hot-item">
+                    <img src="Assets/dd4.webp" alt="Wedding Gifts">
+                </div>
+
+                
+                
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Brands Section -->
+        <div class="brands">
+            <button class="carousel-btn left" onclick="moveCarousel(-1)">&#9664;</button>
+            <div class="brands-carousel">
+                <img src="Assets/c1.webp" alt="Apple">
+                <img src="Assets/c2.webp" alt="Samsung">
+                <img src="Assets/c3.webp" alt="OnePlus">
+                <img src="Assets/c4.webp" alt="Sony">
+                <img src="Assets/c5.webp" alt="Dell">
+                <img src="Assets/c6.webp" alt="HP">
+                <img src="Assets/c7.webp" alt="LG">
+                <img src="Assets/c8.webp" alt="Bose">
+                <img src="Assets/c9.webp" alt="JBL">
+                <img src="Assets/c10.webp" alt="Philips">
+                <img src="Assets/c11.webp" alt="Panasonic">
+                <img src="Assets/c12.webp" alt="Whirlpool">
+
+                
+            </div>
+            <button class="carousel-btn right" onclick="moveCarousel(1)">&#9654;</button>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <!-- Connect with Us -->
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="email-subscribe">
+                    <input type="email" placeholder="Enter Email ID">
+                    <button>Subscribe</button>
+                </div>
+                <div class="social-media">
+                    <a href="#" title="YouTube">&#x25B6;</a>
+                    <a href="#" title="Facebook">&#x1F465;</a>
+                    <a href="#" title="Instagram">&#x1F46F;</a>
+                    <a href="#" title="LinkedIn">&#x1F465;</a>
+                    <a href="#" title="Twitter">&#x1F426;</a>
+                </div>
+                <div class="copyright">
+                    &copy; Copyright 2023 Croma. All rights reserved.
+                </div>
+            </div>
+
+            <!-- Useful Links -->
+            <div class="footer-section">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>About Croma</li>
+                    <li>Help And Support</li>
+                    <li>FAQs</li>
+                    <li>Buying Guide</li>
+                    <li>Return Policy</li>
+                    <li>B2B Orders</li>
+                    <li>Store Locator</li>
+                    <li>E-Waste</li>
+                    <li>Franchise Opportunity</li>
+                </ul>
+            </div>
+
+            <!-- Products -->
+            <div class="footer-section">
+                <h3>Products</h3>
+                <ul>
+                    <li>Televisions & Accessories</li>
+                    <li>Home Appliances</li>
+                    <li>Phones & Wearables</li>
+                    <li>Computers & Tablets</li>
+                    <li>Kitchen Appliances</li>
+                    <li>Audio & Video</li>
+                    <li>Health & Fitness</li>
+                    <li>Grooming & Personal Care</li>
+                    <li>Cameras & Accessories</li>
+                    <li>Smart Devices</li>
+                    <li>Gaming</li>
+                    <li>Accessories</li>
+                    <li>Top Brands</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+       
+    </div>
+
+    <script>
+        // JavaScript for main carousel functionality
+        const items = document.querySelectorAll('.carousel-item');
+        let currentIndex = 0;
+
+        function showNextSlide() {
+            items[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % items.length;
+            items[currentIndex].classList.add('active');
+        }
+
+        document.querySelector('.carousel-control.next').addEventListener('click', showNextSlide);
+
+        document.querySelector('.carousel-control.prev').addEventListener('click', () => {
+            items[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex - 1 + items.length) % items.length;
+            items[currentIndex].classList.add('active');
+        });
+
+        // Automatically change the slide every 3 seconds
+        setInterval(showNextSlide, 3000);
+
+        // JavaScript for small carousel functionality
+        const smallCarouselTrack = document.querySelector('.small-carousel-track');
+        const smallItems = document.querySelectorAll('.small-carousel-item');
+        const smallPrevButton = document.querySelector('.small-carousel-control.prev');
+        const smallNextButton = document.querySelector('.small-carousel-control.next');
+        let smallCurrentIndex = 0;
+
+        function updateSmallCarousel() {
+            const offset = -smallCurrentIndex * 20; // 20% width for each item
+            smallCarouselTrack.style.transform = `translateX(${offset}%)`;
+        }
+
+        smallNextButton.addEventListener('click', () => {
+            smallCurrentIndex = (smallCurrentIndex + 1) % smallItems.length;
+            updateSmallCarousel();
+        });
+
+        smallPrevButton.addEventListener('click', () => {
+            smallCurrentIndex = (smallCurrentIndex - 1 + smallItems.length) % smallItems.length;
+            updateSmallCarousel();
+        });
+
+        // Initialize the small carousel
+        updateSmallCarousel();
+
+        let carouselIndex = 0;
+
+        function moveCarousel(direction) {
+            const carousel = document.querySelector('.brands-carousel');
+            const images = document.querySelectorAll('.brands img');
+            const imageWidth = images[0].offsetWidth + 20; // Image width + gap
+            const totalWidth = imageWidth * images.length;
+            const visibleWidth = document.querySelector('.brands').offsetWidth;
+
+            carouselIndex += direction;
+
+            const maxIndex = Math.ceil(totalWidth / visibleWidth) - 1;
+            if (carouselIndex < 0) carouselIndex = 0;
+            if (carouselIndex > maxIndex) carouselIndex = maxIndex;
+
+            const offset = -carouselIndex * visibleWidth;
+            carousel.style.transform = `translateX(${offset}px)`;
+        }
+    </script>
 </body>
 </html>
