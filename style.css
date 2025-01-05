@@ -20,7 +20,7 @@ body {
     background-color: black;
     color: white;
     
-    font-family: 'Montserrat', sans-serif; /* Using Montserrat for a modern look */
+    font-family: 'Montserrat', sans-serif; 
 
   }
   
@@ -58,14 +58,13 @@ body {
     font-size: 14px;
     border: none;
     border-radius: 5px;
-    background-color: #ffffff; /* Subtle background for better visibility */
+    background-color: #ffffff;
   }
-  
   .search-button {
     background: none;
     border: none;
     cursor: pointer;
-    margin-left: -50px; /* Adjusted margin for better positioning */
+    margin-left: -50px; 
   }
   
   .search-button img {
@@ -184,13 +183,13 @@ body {
     right: 10px;
 }
 
-/* Styles for the small image carousel */
+
 .small-carousel {
     position: relative;
-    max-width: 80%; /* 100% - 20% left margin - 20% right margin */
+    max-width: 80%;
     overflow: hidden;
     margin: auto;
-    height: 35%; /* 25% of the height of the above carousel */
+    height: 35%;
     display: flex;
     align-items: center;
     margin-left: 10%;
@@ -205,7 +204,7 @@ body {
 }
 
 .small-carousel-item {
-    width: 10%; /* 100% / 5 items */
+    width: 10%;
     flex: 0 0 auto;
     margin: 1%;
 }
@@ -231,17 +230,17 @@ body {
 
 .small-carousel-control.prev {
     top: 40%;
-    left: px; /* Adjust as needed to move the control outside the carousel */
+    left: px;
 }
 
 .small-carousel-control.next {
     top: 40%;
-    right: 0px; /* Adjust as needed to move the control outside the carousel */
+    right: 0px; 
 }
 
-/* Add this at the end of your styles.css file */
 
-/* Media query for mobile devices */
+
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
